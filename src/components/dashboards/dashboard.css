@@ -1,0 +1,156 @@
+
+.action-icon {
+    cursor: pointer; 
+    transition: transform 0.3s, color 0.3s;
+  
+    &:hover {
+      color: #007bff; 
+      transform: scale(1.2);
+    }
+  }
+  
+.add-staff-manager{
+
+  background-color: bisque;
+}
+
+
+.row{
+  margin-left: 20px;
+  color: azure;
+}
+
+.posters{
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+.posters::-webkit-scrollbar{
+  display: none;
+
+}
+
+.poster{
+  margin-right: 20px;
+  max-height: 250px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+}
+
+.poster:hover{
+  transform: scale(1.03);
+  box-shadow: 10px;
+  box-decoration-break: slice;
+ border-radius: 20px;
+  border-color: aqua;
+ 
+}
+.smallPoster{
+      max-height: 100px;
+}
+
+.btn-warning {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #ffc107;
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #ffca2c;
+  --bs-btn-hover-border-color: #ffc720;
+  --bs-btn-focus-shadow-rgb: 217,164,6;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #ffcd39;
+  --bs-btn-active-border-color: #ffc720;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #ffc107;
+  --bs-btn-disabled-border-color: #ffc107;
+  margin-left: 20px;
+  margin-bottom: 1%;
+}
+.btn-warning:hover{
+  cursor: pointer;
+  background-color: #000;
+  color: #ffc107;
+  --bs-btn-active-color: #ffc107;
+  
+}
+.header {
+  width: 98%;
+  height: 100%;
+  background-color: cadetblue;
+}
+.h1 {
+  margin-left: calc(30.375rem + 1.5vw);
+  margin-top: -50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed: space-between, space-around, flex-start, flex-end, center, etc. */
+}
+
+.previous {
+  /* Add any additional styling for your buttons */
+  padding: 10px;
+  background-color: rgb(9, 71, 71);
+  border-radius: 10px;
+
+}
+
+.next {
+  /* Add any additional styling for your buttons */
+  padding: 10px;
+  background-color: rgb(9, 71, 71);
+  border-radius: 10px;
+
+}
+.staff-main{
+  background-color: rgb(211, 199, 164);
+
+  margin-top:2%;
+  height: 700px;
+  border-radius: 10px;
+  position: fixed;
+
+}
+
+
+.staff-header{
+ 
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.alert-box {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+}
+
+/* Optional: Add animation for a fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  to {
+    opacity: 1;
+    border-color: #ffc107;
+    border-width: 100px;
+  }
+}
+
+.alert-box {
+  animation: fadeIn 1.5s ease-out;
+}

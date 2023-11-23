@@ -1,0 +1,35 @@
+#login-header{
+    background: #0d6efd;
+justify-self: center;
+width: 97%;
+height : 5%;
+padding-left: 2%;
+padding-right: 2%;}
+
+#login-div{
+    margin-top: 28%; 
+}
+
+#form-label{
+    margin-top: 5%; 
+}
+.Login-main {
+    margin-top: 20px;
+    transition: 1s ease-in-out; 
+         border-radius: 25px;
+         border-width: 5px;
+        width: 31em;
+        background-color: white;
+        height: 100%;
+
+}
+
+.Login-main:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(0, 94, 255);}
+
+
+
+
+
+

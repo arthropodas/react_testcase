@@ -1,0 +1,11 @@
+.main{
+    width: 1em;
+    background-color: aqua;
+    height: 100%;
+}
+
+#logout-button
+{
+    background-color:  rgba(var(--bs-primary-rgb),var(--bs-bg-opacity));
+    border-width: 0px;
+}

@@ -1,0 +1,11 @@
+.fixed-footer {
+  display: flex;
+    position: bottom;
+    padding-bottom:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3170af; /* Customize the background color */
+    padding: 0; /* Customize the padding */
+    text-align: center; /* Center the content horizontally */
+  }
+  
